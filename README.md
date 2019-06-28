@@ -3,7 +3,7 @@
 <br>
 * >Install JDK 1.8 or Above
 * >Download Tika JAR -> https://tika.apache.org/download.html
-* >To Run Tika Server go to path were you have downloaded the file
+* >To Run Tika Server go to path were you have downloaded the file<br>
 `java -jar tika-server-1.21.jar -p <PortNumber> Default port:9998`
 * >To Test Apache Tika Server and extract data from file<br>
 `curl -T path-to-file/file http://127.0.0.1:<port>/tika`
